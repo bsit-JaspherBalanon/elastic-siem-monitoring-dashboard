@@ -1,0 +1,14 @@
+server.port: 5601
+server.host: "0.0.0.0"
+
+elasticsearch.hosts:
+  - "https://127.0.0.1:9200"
+
+elasticsearch.username: "kibana_system"
+elasticsearch.password: "REDACTED"
+
+xpack.security.enabled: true
+
+xpack.encryptedSavedObjects.encryptionKey: "REDACTED"
+xpack.reporting.encryptionKey: "REDACTED"
+xpack.security.encryptionKey: "REDACTED"
